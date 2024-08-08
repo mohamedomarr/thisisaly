@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.logo-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.socialProofLogo:hover .logo-image {
+    filter: grayscale(0%);
+}
+
+.logo-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.socialProofLogo:hover .logo-image {
+    filter: grayscale(0%);
+}
+
+.markdown-body {
+    padding: 2rem;
+}
+
+#root {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
