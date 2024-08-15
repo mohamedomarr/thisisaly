@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    
 }
 .logo-image {
     width: 100px; /* Adjust as needed */
@@ -36,4 +36,75 @@ html, body {
 
 section {
     margin-bottom: 2rem;
+}
+.socialProofSection {
+    max-width: 800px
+}
+
+.socialProofSection .socialProofLogo {
+    max-width: min(22%,120px);
+    flex-shrink: 0.1;
+    border-bottom: 3px solid transparent
+}
+
+.socialProofSection .socialProofLogo img {
+    object-fit: contain;
+    width: 100%;
+    height: 80px;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.socialProofSection .socialProofLogo.highlighted img {
+    -webkit-filter: saturate(100%);
+    filter: saturate(100%);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+.socialProofSection #socialProofInfo {
+    color: #737373;
+    color: var(--medium-gray)
+}
+
+@media (max-width: 767.98px) { /* For small devices like mobile phones */
+    .socialProofSection .socialProofLogo {
+        flex: 0 0 33.3333%; /* 3 logos per row */
+        max-width: 33.3333%; /* 3 logos per row */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* For medium devices like tablets */
+    .socialProofSection .socialProofLogo {
+        flex: 0 0 50%; /* 2 logos per row */
+        max-width: 50%; /* 2 logos per row */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /* For large devices */
+    .socialProofSection .socialProofLogo {
+        flex: 0 0 25%; /* 4 logos per row */
+        max-width: 25%; /* 4 logos per row */
+    }
+}
+
+@media (min-width: 1200px) { /* For extra large devices */
+    .socialProofSection .socialProofLogo {
+        flex: 0 0 20%; /* 5 logos per row */
+        max-width: 20%; /* 5 logos per row */
+    }
+}
+@media (min-width: 1200px) { /* Extra large devices (large desktops, 1200px and up) */
+    .socialProofSection .socialProofLogo {
+        flex: 0 0 16.6667%; /* 6 logos per row */
+        max-width: 16.6667%;
+    }
+
+    .socialProofSection {
+        justify-content: space-between;
+    }
 }
