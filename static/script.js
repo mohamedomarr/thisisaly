@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         logo30u30: "Named 30 Under 30 - Consumer Technology list in the United States",
         logoIwc: 'Selected as one of IWC brand voices',
         logoForbes: "Named Arab 30 under 30 by Forbes Middle East",
+        mec: "Founded the MIT Entrepreneurship Club (MEC), MIT’s community of entrepreneurial undergraduate engineers.",
             },
             defaultText: 'Touch each logo to learn more'
         },
