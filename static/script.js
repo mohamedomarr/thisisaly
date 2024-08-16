@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
             textMap: {
                 logoOxford: "Spent a semester abroad at Oxford where I studied Philosophy, Politics & Economics.",
         logoMIT: 'Attended undergrad at MIT studying EE and Management.',
-        logo30u30: "Named 30 Under 30 - Consumer Technology list in the United States",
-        logoIwc: 'Selected as one of IWC brand voices',
-        logoForbes: "Named Arab 30 under 30 by Forbes Middle East",
+        logo30u30: "Named 30 Under 30 - Consumer Technology list in the United States.",
+        logoIwc: 'Selected as one of IWC brand voices.',
+        logoForbes: "Named Arab 30 under 30 by Forbes Middle East.",
         mec: "Founded the MIT Entrepreneurship Club (MEC), MIT’s community of entrepreneurial undergraduate engineers.",
             },
             defaultText: 'Touch each logo to learn more'
@@ -17,12 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
             logos: document.querySelectorAll('#overview2 .socialProofLogo'),
             infoText: document.getElementById('infoText2'),
             textMap: {
-                intel: "Global Finalist in Intel International Science & Engineering Fair 2013",
-                EUCYS: "The 25th EU Contest for Young Scientists (EUCYS)",
+                intel: "Global Finalist in Intel International Science & Engineering Fair (ISEF).",
+                EUCYS: "The 25th EU Contest for Young Scientists Award.",
                 Imagine: "Won 2nd Place in World Citizenship Competition. ",
-                harvardCup: "Invited speaker to 2017 Arab Conference at Harvard.",
-                mitenter: "Won 3rd Place at MIT Enterprise Forum Pan Arab 2014",
-                ISWEEEP:"Won gold medal at the International Engineering Olympiad"
+                harvardCup: "Won 2nd place at Arab Conference at Harvard Startup Pitch Competition in Cambridge, MA.",
+                mitenter: "Won 3rd Place at MIT Enterprise Forum Pan Arab.",
+                ISWEEEP:"Won gold medal at the International Engineering Olympiad."
             },
             defaultText: 'Touch each logo to learn more'
         }
